@@ -475,8 +475,7 @@ footer .copy-line  {
 ===========================
 */
 @media only screen and (max-width: 991px) {
-    .navbar-nav {
-        display: block;
+    #navbarNavDropdown {
         background-color: rgba(8, 8, 8, 0.945);
         text-align: center;
         border-top: 1px solid rgba(255,255,255, .3);
@@ -510,8 +509,7 @@ footer .copy-line  {
 
 @media only screen and (max-width: 767px) {
     
-    .navbar-nav {
-        display: block;
+    #navbarNavDropdown {
         background-color: rgba(8, 8, 8, 0.945);
         text-align: center;
         border-top: 1px solid rgba(255,255,255, .3);
@@ -536,8 +534,7 @@ footer .copy-line  {
 
 @media only screen and (max-width: 575px) {
     
-    .navbar-nav {
-        display: block;
+    #navbarNavDropdown {
         background-color: rgba(8, 8, 8, 0.945);
         text-align: center;
         border-top: 1px solid rgba(255,255,255, .3);
