@@ -30,8 +30,8 @@ body {
     color: #202020;
     position: relative;
     background-color: rgb(82, 86, 89);
-    width: 100%;
-    height: 100%;
+    width: auto;
+    height: auto;
 }
 
 *{
@@ -85,41 +85,18 @@ header, section, footer{
 }
 
 
-.img-center {
-    display: block;
-    margin: 0 auto;
-}
-
 .text-justify {
     text-align: justify;
 }
 
-.btn.btn-lg {
-    padding: 16px 40px;
-}
-.btn {
-	font-weight: 600;
-    padding: 10px 40px;
-    letter-spacing: 1px;
-    border:none;
-}
-
-.btn.post-btn {
-    padding: 0;
-    color: #202020;
-}
-.post-btn:hover, .post-btn:hover i {
-    color: #EE5A3F;
-}
-
 .btn-primary {
-    background-color: #EE5A3F;
+    background-color: #FFD503;
     color: #fff;
 }
 
 .btn-primary:hover {
     background-color: #202020;
-    color: #EE5A3F;
+    color: #FFD503;
 }
 
 .btn-light {
@@ -127,12 +104,12 @@ header, section, footer{
     color: #202020;
 }
 .btn-light:hover {
-    background-color: #EE5A3F;
+    background-color: #FFD503;
     color: #fff;
 }
 
 .btn-dark {
-	background-color: #EE5A3F;
+	background-color: #FFD503;
 	color: #fff;
 }
 .btn-dark:hover {
@@ -148,17 +125,14 @@ header, section, footer{
 	text-transform: uppercase;
 }
 
-.fab, .fas {
+/* .fab, .fas {
     font-size: 18px;
     color: #202020;
     padding: 4px;
 }
 .fab:hover, .fas:hover {
-    color: #EE5A3F;
-}
-sub, sup {
-    font-size: 66%;
-}
+    color: #FFD503;
+} */
 
 .btn-primary:disabled {
     color: #fff;
@@ -167,73 +141,18 @@ sub, sup {
 }
 
 
-/*Title styles for all sections*/
-.section-title {
-	text-align: center;
-	padding-bottom: 90px;
-}
-.section-title h2 {
-	text-transform: uppercase;
-}
-.section-title p {
-	padding-bottom: 8px;
-    margin-bottom: 0;
-}
-.section-title hr {
-    display: inline-block;
-    top: 4px;
-}
-.section-title.light p{
-    color: #fff;
-}
-.section-title.light hr {
-    border-color: rgba(255,255,255, .5);
-}
-.section-title i {
-    background-color: transparent;
-    padding-left: 11px;
-    padding-right: 10px;
-    font-size: 24px;
-}
-hr.left {
-    position: relative;
-    max-width: 250px;
-    width: 100%;
-}
-hr.right {
-    max-width: 250px;
-    width: 100%;
-    position: relative;
-}
-
-/*Sections Top And Bottom Padding*/
-section, .video-review {
-    padding-top: 90px;
-    padding-bottom: 90px;
-}
-.read-in-all {
-    padding-top: 90px;
-}
-#overview > .container > .row {
-    padding-bottom: 60px;
-}
-
-#overview .section-title {
-    padding-bottom: 60px
-}
-
 
 
 /*=============================
 CSS Smooth Aiimation Transition
 =============================*/
-.btn, a, i{
+/* .btn, a, i{
     -webkit-transition: all 0.25s ease-in;
     -moz-transition: all 0.25s ease-in;
     -ms-transition: all 0.25s ease-in;
     -o-transition: all 0.25s ease-in;
     transition: all 0.25s ease-in;
-}
+} */
 /*Smooth Color only Transition*/
 h4 {
 	-webkit-transition: color 0.2s ease-in;
@@ -256,10 +175,10 @@ h4 {
     padding-top: 10px;
 }
 .navbar.alt {
-    height: 50px;
+    height: 60px;
     padding-top: 5px;
     padding-bottom: 5px;
-    background-color: rgba(0, 0, 0, 0.514);
+    background-color: rgba(8, 8, 8, 0.945);
     box-shadow: 0px 8px 8px rgb(255, 255, 255);
     -webkit-animation-name: slideInDown;
     animation-name: slideInDown;
@@ -334,8 +253,12 @@ h4 {
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
     transition: all .3s ease;
-    background-color: #888;
+    background-color: rgb(255, 255, 255);
     height: 3px;
+}
+
+.navbar-toggler:hover{
+    background-color: #888;
 }
 
 header {
@@ -364,367 +287,6 @@ header p {
 	padding-top: 32px;
 }
 
-/*
-===========
-02. Statics
-===========
-*/
-.statics {
-	background-color: #EE5A3F;
-	color: #fff;
-	padding-top: 44px;
-	padding-bottom:44px;
-    text-align: center;
-}
-
-.stats-list {
-	text-align: center;
-	display: inline-flex;
-	text-align: left;
-}
-.stats-list .icon {
-    font-size: 54px;
-    text-align: center;
-    position: relative;
-    top: 4px;
-}
-.stats-list-icon {
-	padding-right: 20px;
-}
-
-.stats-list h3 {
-	text-transform: uppercase;
-}
-
-
-/*
-=================
-03. Chapters List
-=================
-*/
-.chapters-list {
-    display: inline-flex;
-    padding-right: 40px;
-    padding-bottom: 30px;
-    padding-top: 30px;
-}
-.chapters-list .icon {
-	font-size: 30px;
-	color: #fff;
-	position: relative;
-}
-.chapters-list .chapter-list-icon {
-    background-image: url("../assets/chapter-list-icon-bg.svg");
-    background-repeat: no-repeat;
-    background-position: top left;
-    height: 80px;
-    width: 62px;
-    text-align: center;
-    position: relative;
-    display: table;
-    padding-top: 20px;
-    margin-right: 20px;
-}
-
-.chapters-list h4 {
-	text-transform: uppercase;
-}
-
-.chapters-list:hover h4 {
-	color: #EE5A3F;
-}
-
-/*
-================
-04. Video Review
-================
-*/
-.video-review {
-	background-color: #f9f9f9;
-}
-
-/*
-=======================
-05. Read in All Devices
-=======================
-*/
-.compatibility-text {
-    padding-top: 50px;
-}
-.compatibility-text .btn {
-    margin-top: 6px;
-}
-
-/*
-====================
-06. Feedback/Reviews
-====================
-*/
-
-#feedback {
-    background-color: #f9f9f9;
-}
-
-#feedback {
-    padding-bottom: 50px;
-}
-
-.reviews-lists {
-    padding-top: 20px;
-}
-
-.review-list {
-    padding: 36px 20px 20px;
-    background-color: #fff;
-    border: 1px solid rgba(0,0,0,.1);
-    margin-bottom: 60px;
-}
-.review-list p {
-    margin-top: 30px;
-}
-.review-list img {
-    top: -40px;
-    position: absolute;
-    border: 2px solid #fff;
-}
-
-
-/*
-==================
-07. Author Details
-==================
-*/
-#author h4 {
-    text-transform: uppercase;
-}
-
-.author-details {
-    text-align: center;
-}
-
-.author-picture {
-    border: 1px solid #C1C1C1;
-}
-
-.autor-signature {
-    max-width: 270px;
-    width: 100%;
-}
-
-.author-name {
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-.author-social-icons a i {
-    border: 1px solid #C1C1C1;
-    padding: 8px 10px 10px;
-    vertical-align: middle;
-}
-
-.autor-signature {
-    margin-top: 40px;
-}
-
-/*
-===================
-08. Pricing Tables
-===================
-*/
-#pricing {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.55)), 
-    url("../assets/pricing-tables-bg.jpg");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    position: relative;
-    background-color: #202020;
-    color: #fff;
-}
-#pricing .section-title {
-    padding-bottom: 75px;
-}
-
-.pricing-table ul {
-    padding-left: 0;
-    padding-top: 20px;
-    padding-bottom: 30px;
-}
-
-.pricing-table li {
-    list-style-type: none;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    border-bottom: 1px solid #C1C1C1;
-    color: #606060;
-    font-weight: 500;
-    letter-spacing: 1px;
-    line-height: 22px;
-    font-size: 18px;
-}
-
-.pricing-table {
-    text-align: center;
-    background-color: #fff;
-    padding-bottom: 50px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    border-radius: 4px;
-}
-.pricing-table.big {
-    padding-bottom: 60px;
-    margin-top: -25px;
-}
-
-
-.pricing-table h4 {
-    font-size: 18px;
-    text-transform: uppercase;
-    color: #292929;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    margin-bottom: 0;
-}
-
-.pricing-table.big h4 {
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-.pricing-table .price {
-    font-family: 'Work Sans', sans-serif;
-    background-color: #292929;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    font-size: 46px;
-    line-height: 50px;
-    font-weight: 600;
-}
-
-.pricing-table.big .price {
-    background-color: #EE5A3F;
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
-
-.pricing-table.popular .price {
-    background-color: #EE5A3F;
-}
-
-
-/*
-===================
-09. Blog Posts
-===================
-*/
-
-.post-date {
-    color: #A0A0A0;
-    font-size: 18px;
-}
-
-.post-content h4 {
-    text-transform: uppercase;
-}
-
-.post-content {
-    padding-top: 20px;
-}
-
-
-/*
-===================
-10. Simple Banner
-===================
-*/
-.simple-banner {
-    background-color: #EE5A3F;
-    text-align: center;
-    padding-top: 48px;
-    padding-bottom: 48px;
-    color: #fff;
-}
-
-.simple-banner h3 {
-    font-weight: 600;
-}
-
-.sb-title {
-    vertical-align: middle;
-    padding-top: 16px;
-}
-
-.simple-banner .btn-light:hover {
-    background-color: #202020;
-}
-
-/*
-===================
-11. Contact Section
-===================
-*/
-#contact form {
-    text-align: center;
-}
-.form-control-lg {
-    font-size: 16px;
-    border-radius: 10px;
-    border-color: #606060;
-}
-
-.has-error .form-control-lg {
-    border-color: #a94442;
-}
-.has-success .form-control-lg {
-    border-color: #3c763d;
-}
-
-.has-feedback {
-    position: relative;
-}
-
-.form-control-feedback {
-    position: absolute;
-    top: 3px;
-    right: 7px;
-    z-index: 2;
-    display: block;
-    width: 34px;
-    height: 34px;
-    line-height: 34px;
-    text-align: center;
-    pointer-events: none;
-}
-
-.has-success .form-control-feedback {
-    color: #3c763d;
-}
-.has-error .form-control-feedback {
-    color: #a94442;
-}
-.has-error .help-block {
-    color: #a94442;
-}
-
-.form-group-lg .form-control + .form-control-feedback,
-.input-group-lg + .form-control-feedback,
-.input-lg + .form-control-feedback {
-    padding-right: 20px;
-}
-
-.form-group {
-    text-align: left;
-}
-.form-group.has-error {
-    margin-bottom: 6px;
-}
-
-.form-message .form-msg {
-    padding: 16px;
-    -webkit-transition: all .2s ease;
-    -moz-transition: all .2s ease;
-    transition: all .2s ease;
-}
 
 /* 
 ==================
@@ -738,9 +300,9 @@ Style Toolbar
 }
 
 #pdf-container {
-    margin-top: 60px;
-    padding-left: 10px;
+    margin-top: 70px;
     text-align: center;
+    padding-left: 10px;
 }
 
 /* .toolbar {
@@ -765,7 +327,8 @@ Style Toolbar
     display: inline-block;
     color: #fff;
     height: auto !important;
-    padding-top: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     padding-left: 5px;
     margin-right: 10px;
 }
@@ -913,12 +476,12 @@ footer .copy-line  {
 */
 @media only screen and (max-width: 991px) {
     .navbar-nav {
-        background-color: rgba(8, 8, 8, 0.808);
+        background-color: rgba(8, 8, 8, 0.945);
         text-align: center;
         border-top: 1px solid rgba(255,255,255, .3);
         margin-top: 15px;
         padding: 15px;
-        box-shadow: 3px 3px 25px 0 #FFD503;
+        box-shadow: 3px 3px 5px 0 #0a0a0a;
     }
     .nav-item{
         padding: 15px;
@@ -942,12 +505,12 @@ footer .copy-line  {
 @media only screen and (max-width: 767px) {
     
     .navbar-nav {
-        background-color: rgba(8, 8, 8, 0.808);
+        background-color: rgba(8, 8, 8, 0.945);
         text-align: center;
         border-top: 1px solid rgba(255,255,255, .3);
         margin-top: 15px;
         padding: 15px;
-        box-shadow: 3px 3px 25px 0 #FFD503;
+        box-shadow: 3px 3px 5px 0 #0a0a0a;
     }
     .nav-item{
         padding: 15px;
@@ -970,12 +533,12 @@ footer .copy-line  {
 @media only screen and (max-width: 575px) {
     
     .navbar-nav {
-        background-color: rgba(8, 8, 8, 0.808);
+        background-color: rgba(8, 8, 8, 0.945);
         text-align: center;
         border-top: 1px solid rgba(255,255,255, .3);
         margin-top: 15px;
         padding: 15px;
-        box-shadow: 3px 3px 25px 0 #FFD503;
+        box-shadow: 3px 3px 5px 0 #0a0a0a;
     }
     .nav-item{
         padding: 15px;
