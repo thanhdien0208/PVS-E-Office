@@ -476,16 +476,20 @@ footer .copy-line  {
 */
 @media only screen and (max-width: 991px) {
     .navbar-nav {
-        position: absolute;
-        left: 0px;
-        top: 0px;
-        height: 100%;
         background-color: rgba(8, 8, 8, 0.945);
         text-align: center;
         border-top: 1px solid rgba(255,255,255, .3);
         margin-top: 15px;
         padding: 15px;
         box-shadow: 3px 3px 5px 0 #0a0a0a;
+    }
+    .toolbar .tool {
+        display: block;
+        color: #fff;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+        margin-right: 10px;
     }
     .nav-item{
         padding: 15px;
@@ -506,10 +510,6 @@ footer .copy-line  {
 @media only screen and (max-width: 767px) {
     
     .navbar-nav {
-        position: absolute;
-        left: 0px;
-        top: 0px;
-        height: 100%;
         background-color: rgba(8, 8, 8, 0.945);
         text-align: center;
         border-top: 1px solid rgba(255,255,255, .3);
@@ -535,10 +535,6 @@ footer .copy-line  {
 @media only screen and (max-width: 575px) {
     
     .navbar-nav {
-        position: absolute;
-        left: 0px;
-        top: 0px;
-        height: 100%;
         background-color: rgba(8, 8, 8, 0.945);
         text-align: center;
         border-top: 1px solid rgba(255,255,255, .3);
