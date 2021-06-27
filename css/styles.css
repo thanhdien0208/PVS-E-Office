@@ -477,8 +477,8 @@ footer .copy-line  {
 @media only screen and (max-width: 991px) {
     .navbar-nav {
         position: absolute;
-        left: 100px;
-        top: 150px;
+        left: 0px;
+        top: 0px;
         height: 100%;
         background-color: rgba(8, 8, 8, 0.945);
         text-align: center;
@@ -507,8 +507,8 @@ footer .copy-line  {
     
     .navbar-nav {
         position: absolute;
-        left: 100px;
-        top: 150px;
+        left: 0px;
+        top: 0px;
         height: 100%;
         background-color: rgba(8, 8, 8, 0.945);
         text-align: center;
@@ -536,8 +536,8 @@ footer .copy-line  {
     
     .navbar-nav {
         position: absolute;
-        left: 100px;
-        top: 150px;
+        left: 0px;
+        top: 0px;
         height: 100%;
         background-color: rgba(8, 8, 8, 0.945);
         text-align: center;
